@@ -18,7 +18,7 @@ const Navbar = () => {
                         <a href="#features" className="text-slate-600 hover:text-indigo-600 font-medium transition">Features</a>
                         <a href="#use-cases" className="text-slate-600 hover:text-indigo-600 font-medium transition">Use Cases</a>
                         <a href="#pricing" className="text-slate-600 hover:text-indigo-600 font-medium transition">Pricing</a>
-                        <button className="text-indigo-600 font-semibold hover:bg-indigo-50 px-4 py-2 rounded-lg transition">Log In</button>
+                        <a href="https://app.aicrmz.com/" className="text-indigo-600 font-semibold hover:bg-indigo-50 px-4 py-2 rounded-lg transition">Log In</a>
                         <button className="bg-indigo-600 text-white px-5 py-2.5 rounded-lg font-medium hover:bg-indigo-700 transition shadow-lg shadow-indigo-200">Start Free Trial</button>
                     </div>
 
@@ -38,7 +38,7 @@ const Navbar = () => {
                         <a href="#use-cases" className="block px-3 py-2 text-slate-600 font-medium hover:bg-slate-50 rounded-md" onClick={toggleMenu}>Use Cases</a>
                         <a href="#pricing" className="block px-3 py-2 text-slate-600 font-medium hover:bg-slate-50 rounded-md" onClick={toggleMenu}>Pricing</a>
                         <div className="pt-4 border-t border-slate-100 mt-2 flex flex-col gap-3">
-                            <button className="w-full text-center text-indigo-600 font-semibold py-2">Log In</button>
+                            <a href="https://app.aicrmz.com/" className="w-full text-center text-indigo-600 font-semibold py-2">Log In</a>
                             <button className="w-full bg-indigo-600 text-white py-3 rounded-lg font-medium shadow-md">Start Free Trial</button>
                         </div>
                     </div>
